@@ -8,3 +8,25 @@ Bởi ta chọn chạy trên trình duyệt nên trước tiên cần tìm hiể
 
 ## Thẻ "script"
 
+Có thể chèn các chương trình JavaScript vào bất cứ đâu trong một tài liệu HTML bằng cách sử dụng thẻ “script”.
+
+Ví dụ:
+
+```html
+<!DOCTYPE html>
+<html>
+
+<body>
+
+	<p>Trước thẻ script...</p>
+
+	<script>
+		alert(“Hello World!”);
+	</script>
+
+	<p>...Sau thẻ script.</p>
+
+</body>
+</html>
+```
+
